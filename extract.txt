@@ -1,0 +1,153 @@
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0038_solo2-17-A-1.wav
+INTERVAL: 00:00:00.045 00:00:5.045
+TRANSCRIPTION: <#spk_2> hello, how are you
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0038_solo2-17-A-1.wav
+INTERVAL: 00:00:5.045 00:00:9.035
+TRANSCRIPTION: <#spk_3> <um> not good. [1.401] <#no-speech> [3.633] <#spk_2> what happened? I see ~
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0038_solo2-17-A-1.wav
+INTERVAL: 00:00:9.035 00:00:19.575
+TRANSCRIPTION: you get injured. [2.518] <#spk_3> I was hit by a truck fifteen days ago . [5.184] <#spk_2> oh, it's really terrible. I hope you'll get well soon
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0011_solo2-17-V-2.wav
+INTERVAL: 00:00:00.000 00:00:04.045
+TRANSCRIPTION: <#spk_1> I will now describe the person .
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0011_solo2-17-V-2.wav
+INTERVAL: 00:00:12.145 00:00:16.560
+TRANSCRIPTION: <#spk_2> by anyone else . [1.52] <#spk_3> she is wearing a white blouse .
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0011_solo2-17-V-2.wav
+INTERVAL: 00:00:16.560 00:00:20.560
+TRANSCRIPTION: <#spk_1> with what seemed to be a blue pattern skirt . ~
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0011_solo2-17-V-2.wav
+INTERVAL: 00:00:20.560 00:00:24.700
+TRANSCRIPTION: <hm> she was carrying a tan purse .
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0006_solo2-17-V-3.wav
+INTERVAL: 00:00:01.040 00:00:04.575
+TRANSCRIPTION: <#spk_1> I will now describe the personal interest .
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0006_solo2-17-V-3.wav
+INTERVAL: 00:00:13.185 00:00:19.020
+TRANSCRIPTION: <#spk_2> on the thin side <pause> she as long middle of the back link .
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0002_20220605-192230_0006_solo2-17-V-3.wav
+INTERVAL: 00:00:19.020 00:00:24.650
+TRANSCRIPTION: <#spk_1> brunette white hair it is parted on the left side .
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-14.wav
+INTERVAL: 00:00:01.341 00:00:07.105
+TRANSCRIPTION: <#spk_2> <ah> you're s- you seem to be so busy with your office work . ? <um> are you aware ?
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-14.wav
+INTERVAL: 00:00:07.105 00:00:11.130
+TRANSCRIPTION: <#spk_2> <interjection>oh</interjection> what a standing on social networks these days .
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-14.wav
+INTERVAL: 00:00:11.130 00:00:18.395
+TRANSCRIPTION: <#spk_1> no I am not busy with office work I am just <unk> <unk> on LinkedIn . I am just looking for some . [5.853] <noise> [6.358] <#spk_3> new .
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-14.wav
+INTERVAL: 00:00:18.395 00:00:22.095
+TRANSCRIPTION: <#spk_3> job openings . [1.312] <noise> [1.984] <#spk_2> <interjection>ohh</interjection> . [2.991] <#spk_3> yeah .
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-15.wav
+INTERVAL:00:00:00.000 00:00:16.050
+TRANSCRIPTION: <#spk_1> no I am not busy with office work . I am just <unk> <unk> on LinkedIn . [2.1] <#spk_2> I am just looking for some .
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-15.wav
+INTERVAL:00:00:16.050 00:00:21.315
+TRANSCRIPTION: <#spk_2> no I am not busy with office work [1.121] <#spk_1> I am just <unk> <unk> on LinkedIn . [2.1] <#spk_2> I am just looking for some .
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-16.wav
+INTERVAL: 00:00:00.045 00:00:5.045
+TRANSCRIPTION: <#spk_2> hello, how are you
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-16.wav
+INTERVAL: 00:00:5.045 00:00:9.035
+TRANSCRIPTION: <#spk_3> <um> not good. [1.401] <#no-speech> [3.633] <#spk_2> what happened? I see ~
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-16.wav
+INTERVAL: 00:00:9.035 00:00:19.575
+TRANSCRIPTION: you get injured. [2.518] <#spk_3> I was hit by a truck fifteen days ago . [5.184] <#spk_2> oh, it's really terrible. I hope you'll get well soon
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-17.wav
+INTERVAL: 00:00:36.050 00:00:42.895
+TRANSCRIPTION: <#spk_2> how about you ? [2.916] <#spk_3> I am there only on LinkedIn and of course WhatsApp <continued>
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-17.wav
+INTERVAL: 00:00:42.895 00:00:46.440
+TRANSCRIPTION: <#spk_3> which belongs to Facebook again . [2.256] <#spk_2> yeah yeah .
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-18.wav
+INTERVAL: 00:00:04.530 00:00:13.345
+TRANSCRIPTION: <#spk_2> you know migrate to Signal . [1.539] <#spk_2> at one . [2.094] <#spk_3> point of time that thing spiked and now I think it mi- it looks like as though it died down .
+HYPOTHESIS: 
+LABELS: 
+USER: User41
+
+FILE: /audio-efs/Test_04803_MUL_MUL_0006_20220605-181850_0019_solo2-D-18.wav
+INTERVAL: 00:00:13.345 00:00:20.695
+TRANSCRIPTION: <#spk_2> correct yeah . [1.315] <#spk_3> people seem to have forgotten about Signal . [3.224] <#spk_3> Signal . [3.845] <#spk_2> yeah but I <er> maybe things have 
+HYPOTHESIS: 
+LABELS: 
+USER: User41
