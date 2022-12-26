@@ -58,25 +58,29 @@ class TranscriptParser:
 
     def parse(self):
         """
-        transcript ::= head_transcript | tail_transcript
+        call parse_transcript
         """
-        if not self.emitter.is_merge_next:
-            self.emitter.use_default_segment_start()
-            self.parse_head_transcript()
-        else:
-            self.emitter.unset_merge_next()
-            self.parse_tail_transcript()
-
+        self.parse_transcript()
         assert self.current_token == TranscriptToken.NONE, (
             "Expecting that all tokens have been consumed... "
             f"but there seems to be some left: {self.current_token.type}"
         )
 
-    def parse_head_transcript(self):
+    def parse_transcript(self):
         """
-        head_transcript ::= segment [{timestamp segment}] [tilde]
+        transcript ::= message|segment [{timestamp segment}] [tilde]
+
+        transcript starts with a `message` if the utterance is a continuation
+        of the previous utterance
         """
-        self.parse_segment()
+        if not self.emitter.is_merge_next:
+            self.emitter.use_default_segment_start()
+            # self.parse_head_transcript()
+            self.parse_segment()
+        else:
+            self.emitter.unset_merge_next()
+            message: str = self.parse_message()
+            self.emitter.append_message(message)
 
         while self.check_current_token(TranscriptTokenType.TIMESTAMP):
             time_offset: int = self.parse_timestamp()
@@ -98,24 +102,6 @@ class TranscriptParser:
             # last segment in utterance uses interval end as its end
             self.emitter.use_default_segment_end()
             self.emitter.emit()
-
-    def parse_tail_transcript(self):
-        """
-        tail_transcript ::= message [timestamp head_transcript]
-        """
-        message: str = self.parse_message()
-        self.emitter.append_message(message)
-
-        if self.check_current_token(TranscriptTokenType.TIMESTAMP):
-            time_offset: int = self.parse_timestamp()
-            end: int = self.emitter.compute_segment_end(time_offset)
-            self.emitter.set_segment_end(end)
-            self.emitter.emit()
-
-            # prep for next segment
-            self.emitter.set_segment_start(end)
-
-            self.parse_head_transcript()
 
     def parse_segment(self):
         """
